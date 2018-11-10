@@ -1,0 +1,36 @@
+{
+  "name": "phaser-dev-starter",
+  "version": "0.4.0",
+  "description": "a starter project for using Phaser with Webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "rm -rf dist && webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "phaser",
+    "starter",
+    "webpack"
+  ],
+  "author": "erikyuzwa@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "phaser": "^3.15.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
